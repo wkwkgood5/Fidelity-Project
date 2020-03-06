@@ -18,7 +18,7 @@ public class PanelChange_leap : MonoBehaviour {
    public GameObject TimeText;
    private int TotalTime_practice=60;
    private int TotalTime_reset=60;
-   private int TotalTime_play=4;
+   private int TotalTime_play=60;
  
  
    public void Exit(){
@@ -142,7 +142,7 @@ public class PanelChange_leap : MonoBehaviour {
 		StopCoroutine("CountDown1");
 		StopCoroutine("CountDown2");
 		StopCoroutine("CountDown3");
-		TotalTime_play=4;
+		TotalTime_play=60;
 		StartCoroutine("CountDown3");
 	}
 
