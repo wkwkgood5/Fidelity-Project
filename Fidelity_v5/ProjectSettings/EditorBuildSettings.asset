@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/XBox.unity
+    guid: 35bcacdb2df23164e9ece0e6f72fb9d2
+  - enabled: 1
+    path: Assets/Scenes/VIVE.unity
+    guid: c4f4d033284fd4e4eba710e54ad2c530
+  - enabled: 1
+    path: Assets/Scenes/Leap.unity
+    guid: f2c3ec618105ed94bb00651c34ca381a
