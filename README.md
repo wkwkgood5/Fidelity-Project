@@ -16,6 +16,6 @@ Separate to different scenes so that researchers could control the button on com
 **The bugs may meet**<br><br>
 When jump to the leap scene, the menu may disappear. But this time we only need to test whether leap can grab the cube. So practise at practise stage where there are three cubes.
 ## Update-version5-3.9 <br><br>
-I separate into three scenes and each of them was named by its controller.
+I separate into three scenes and each of them was named by its controller.<br><br>
 **What is my next step**<br><br>
 Create a loader to load different scenes
