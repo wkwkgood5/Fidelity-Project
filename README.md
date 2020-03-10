@@ -22,5 +22,6 @@ Create a loader to load different scenes
 
 ## Update-version5-4.0 <br><br>
 Created the loader, it will now load each scene. - Andrew<br><br>
+Just added instruction scenes, if you load MainMenu, you will be able to play through all instruction screens and go back to the main menu with the back button, it will also load the 3 seperate scenes.
 **What is my next step**<br><br>
-Transport the instruction into it's own seperate scene and the other menus. For Kang, split the practice and main testing stages into two.
+Transport the second set of instructions in between the split practice and testing stages, and prep ending messages. For Kang, split the practice and main testing stages into two.
