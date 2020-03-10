@@ -28,7 +28,7 @@ public class Action_Random : MonoBehaviour {
 	void Start()
 	{
         origine = transform.position ;
-        Randomtransform.SetActive(false);
+        //Randomtransform.SetActive(false);
         //RandomCube = transform.Find ("Cube_random").gameObject;
 	}
     void Update()
