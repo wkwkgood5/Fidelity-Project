@@ -12,17 +12,26 @@ EditorBuildSettings:
     path: Assets/Scenes/InstructionsSet1Xbox.unity
     guid: caaebd1d6e15a8345bc0ac45d98e1174
   - enabled: 1
+    path: Assets/Scenes/XBox_practice.unity
+    guid: 527e633eeaaace342ae53c00c660d263
+  - enabled: 1
     path: Assets/Scenes/XBox.unity
     guid: 35bcacdb2df23164e9ece0e6f72fb9d2
   - enabled: 1
     path: Assets/Scenes/InstructionsSet1Vive.unity
     guid: 3f4faaa02423aff4eb1c099e346d7f78
   - enabled: 1
+    path: Assets/Scenes/VIVE_practice.unity
+    guid: 3d27fe693d14ec54a9655afd46199595
+  - enabled: 1
     path: Assets/Scenes/VIVE.unity
     guid: c4f4d033284fd4e4eba710e54ad2c530
   - enabled: 1
     path: Assets/Scenes/InstructionsSet1Leap.unity
     guid: 189ff58680e11454faf29b4df066f507
+  - enabled: 1
+    path: Assets/Scenes/Leap_practice.unity
+    guid: aa9fd7a1b8fdceb49af8e36fc67a8ec2
   - enabled: 1
     path: Assets/Scenes/Leap.unity
     guid: f2c3ec618105ed94bb00651c34ca381a
