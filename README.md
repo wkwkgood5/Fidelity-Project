@@ -19,3 +19,8 @@ When jump to the leap scene, the menu may disappear. But this time we only need 
 I separate into three scenes and each of them was named by its controller.<br><br>
 **What is my next step**<br><br>
 Create a loader to load different scenes
+
+## Update-version5-4.0 <br><br>
+Created the loader, it will now load each scene. - Andrew<br><br>
+**What is my next step**<br><br>
+Transport the instruction into it's own seperate scene and the other menus. For Kang, split the practice and main testing stages into two.
