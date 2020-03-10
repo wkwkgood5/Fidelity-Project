@@ -15343,6 +15343,7 @@ GameObject:
   - component: {fileID: 1211940523}
   - component: {fileID: 1211940534}
   - component: {fileID: 1211940529}
+  - component: {fileID: 1211940535}
   m_Layer: 0
   m_Name: ThrowableRandomCube
   m_TagString: Untagged
@@ -15628,6 +15629,20 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &1211940535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211940521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eb8b744f73714fbe7dbdd5e3ef66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInGaze: 0
+  gazeInCutoff: 0.15
+  gazeOutCutoff: 0.4
 --- !u!1001 &1213554110
 Prefab:
   m_ObjectHideFlags: 0

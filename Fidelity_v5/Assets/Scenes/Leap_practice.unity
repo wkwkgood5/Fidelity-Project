@@ -6917,6 +6917,20 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &510311213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510311210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eb8b744f73714fbe7dbdd5e3ef66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInGaze: 0
+  gazeInCutoff: 0.15
+  gazeOutCutoff: 0.4
 --- !u!4 &510311216 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011633437892, guid: fb710a001890d9a44bb74a8ce4f20cc0,
@@ -10361,6 +10375,20 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &762140614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762140611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eb8b744f73714fbe7dbdd5e3ef66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInGaze: 0
+  gazeInCutoff: 0.15
+  gazeOutCutoff: 0.4
 --- !u!4 &762140617 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011633437892, guid: fb710a001890d9a44bb74a8ce4f20cc0,
@@ -20009,6 +20037,20 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &1529089288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1529089285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eb8b744f73714fbe7dbdd5e3ef66e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInGaze: 0
+  gazeInCutoff: 0.15
+  gazeOutCutoff: 0.4
 --- !u!4 &1529089291 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011633437892, guid: fb710a001890d9a44bb74a8ce4f20cc0,
