@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 62c22c396474d9440a4bca4f59678414
+  - enabled: 1
     path: Assets/Scenes/XBox.unity
     guid: 35bcacdb2df23164e9ece0e6f72fb9d2
   - enabled: 1
