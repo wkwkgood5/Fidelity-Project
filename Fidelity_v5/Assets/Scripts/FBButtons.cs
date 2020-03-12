@@ -5,13 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class FBButtons : MonoBehaviour {
 
-    public void GoBack()
+    void Update() 
     {
-        SceneManager.LoadScene(0);
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene(0);
+            print("F key was pressed");
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            print("G key was pressed");
+        };
+
     }
 
-    public void GoForward()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+    //public void GoBack()
+    //{
+    //   SceneManager.LoadScene(0);
+    //}
+
+    //public void GoForward()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    //}
 }
