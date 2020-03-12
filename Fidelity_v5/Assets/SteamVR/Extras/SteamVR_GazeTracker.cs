@@ -30,12 +30,14 @@ public class SteamVR_GazeTracker : MonoBehaviour
     {
         if (GazeOn != null)
             GazeOn(this, e);
+            Debug.Log("GazeOn");
     }
 
     public virtual void OnGazeOff(GazeEventArgs e)
     {
         if (GazeOff != null)
             GazeOff(this, e);
+            Debug.Log("GazeOff");
     }
 
     // Update is called once per frame
