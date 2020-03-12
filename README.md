@@ -2,7 +2,7 @@
 ## Update-version5-3.6 <br><br>
 **Do not use Fidelity. Using Fidelity_v5** <br><br>
 Unity version: Unity 2017.3.0f3 (64-bit) <br><br>
-Note: You have to use Unity 2017.3.0f3 (64-bit) instead of Unity 2017.3.0f3 (64-bit) <br><br>
+Note: You have to use Unity 2017.3.0f3 (64-bit) instead of Unity 2017.1.0p5 (64-bit) <br><br>
 **What to test today** <br><br>
 I fixed the leapmotion function bug. It should work well now. You can use leapmotion to grab the cube in the scene <br><br>
 **The steps to test** <br>
@@ -26,4 +26,4 @@ Just added instruction scenes, if you load MainMenu, you will be able to play th
 Transport the second set of instructions in between the split practice and testing stages, and prep ending messages. For Kang, split the practice and main testing stages into two.
 ## Update-version5-3.12 <br><br>
 Test the gaze function.<br><br>
-I created a extra white cube in `xbox_practice` scene for testing the gaze and put it on the green table. So repeatedly look at the cube and moveaway to check if there is a log in the console window as "GazeOn"， "GazeOff".
+I created a extra white cube (just for test) in `xbox_practice` scene for testing the gaze and put it on the green table. So repeatedly look at the cube and moveaway to check if there is a log in the console window as "GazeOn"， "GazeOff".
