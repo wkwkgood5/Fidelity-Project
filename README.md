@@ -26,5 +26,4 @@ Just added instruction scenes, if you load MainMenu, you will be able to play th
 Transport the second set of instructions in between the split practice and testing stages, and prep ending messages. For Kang, split the practice and main testing stages into two.
 ## Update-version5-3.12 <br><br>
 Test the gaze function.<br><br>
-How to test it?<br><br>
 I created a extra white cube in `xbox_practice` scene for testing the gaze and put it on the green table. So repeatedly look at the cube and moveaway to check if there is a log in the console window as "GazeOn"， "GazeOff".
