@@ -14198,7 +14198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 501eb8b744f73714fbe7dbdd5e3ef66e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInGaze: 0
+  isInGaze: 1
   gazeInCutoff: 0.15
   gazeOutCutoff: 0.4
 --- !u!114 &1211940530
