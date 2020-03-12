@@ -25,12 +25,24 @@ public class Action_Random : MonoBehaviour {
 
     private bool ifgrab = false;
 
-	void Start()
-	{
+    private HapticsManager hapticsManager;
+    
+    void Start()
+    {
         origine = transform.position ;
         //Randomtransform.SetActive(false);
         //RandomCube = transform.Find ("Cube_random").gameObject;
-	}
+    }
+
+    private void Awake()
+    {
+        var hapticsManagerGO = GameObject.FindWithTag("HapticsManager");
+        if (hapticsManagerGO)
+            hapticsManager = hapticsManagerGO.GetComponent<HapticsManager>();
+        else
+            Debug.LogWarning("Haptics Manager missing in scene");
+    }
+
     void Update()
     {
         offset_populate = transform.position - FPStransform.position;
@@ -50,6 +62,7 @@ public class Action_Random : MonoBehaviour {
                 transform.position = FPStransform.position + new Vector3 (-0.4f,0.2f,0.4f);
                 this.GetComponent<Rigidbody>().isKinematic = true;
                 ifgrab = true;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             } 
         }
 
@@ -67,6 +80,7 @@ public class Action_Random : MonoBehaviour {
                 this.GetComponent<Rigidbody>().isKinematic = false;
                 transform.SetParent(Populate);
                 ifgrab = false;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             }   
         }
 
@@ -83,7 +97,8 @@ public class Action_Random : MonoBehaviour {
                 transform.position = origine + new Vector3 (1.5f,-0.2f,2.0f);
                 this.GetComponent<Rigidbody>().isKinematic = false;
                 transform.SetParent(Populate);
-                ifgrab = false;  
+                ifgrab = false;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             }   
         }
 
@@ -101,6 +116,7 @@ public class Action_Random : MonoBehaviour {
                 this.GetComponent<Rigidbody>().isKinematic = false;
                 transform.SetParent(Populate);
                 ifgrab = false;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             }   
         }
     }

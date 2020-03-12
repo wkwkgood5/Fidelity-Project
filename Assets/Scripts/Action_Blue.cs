@@ -15,11 +15,22 @@ public class Action_Blue : MonoBehaviour {
 
     private bool ifgrab = false;
 
-	void Start()
-	{
-        origine = transform.position ;
+    private HapticsManager hapticsManager;
+    
+    void Start()
+    {
+        origine = transform.position;
+    }
 
-	}
+    private void Awake()
+    {
+        var hapticsManagerGO = GameObject.FindWithTag("HapticsManager");
+        if (hapticsManagerGO)
+            hapticsManager = hapticsManagerGO.GetComponent<HapticsManager>();
+        else
+            Debug.LogWarning("Haptics Manager missing in scene");
+    }
+    
     void Update()
     {
         offset_populate = transform.position - FPStransform.position;
@@ -36,6 +47,7 @@ public class Action_Blue : MonoBehaviour {
                 transform.position = FPStransform.position + new Vector3 (-0.4f,0.2f,0.4f);
                 this.GetComponent<Rigidbody>().isKinematic = true;
                 ifgrab = true;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             } 
         }
 
@@ -51,6 +63,7 @@ public class Action_Blue : MonoBehaviour {
                 this.GetComponent<Rigidbody>().isKinematic = false;
                 transform.SetParent(Populate);
                 ifgrab = false;
+                hapticsManager.Vibrate(1.0f, 0.3f);
             }   
         }
     }
