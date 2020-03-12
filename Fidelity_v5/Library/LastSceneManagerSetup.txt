@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/InstructionsSet1Leap.unity
+- path: Assets/Scenes/Ending_Message.unity
   isLoaded: 1
   isActive: 1
