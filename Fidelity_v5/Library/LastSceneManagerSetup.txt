@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/Scenes/XBox.unity
+- path: Assets/Scenes/Menu.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/XBox_practice.unity
+  isLoaded: 1
+  isActive: 0
