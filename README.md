@@ -19,9 +19,12 @@ When jump to the leap scene, the menu may disappear. But this time we only need 
 I separate into three scenes and each of them was named by its controller.<br><br>
 **What is my next step**<br><br>
 Create a loader to load different scenes
-
-## Update-version5-4.0 <br><br>
+## Update-version5-3.10 <br><br>
 Created the loader, it will now load each scene. - Andrew<br><br>
-Just added instruction scenes, if you load MainMenu, you will be able to play through all instruction screens and go back to the main menu with the back button, it will also load the 3 seperate scenes.
+Just added instruction scenes, if you load MainMenu, you will be able to play through all instruction screens and go back to the main menu with the back button, it will also load the 3 seperate scenes.<br><br>
 **What is my next step**<br><br>
 Transport the second set of instructions in between the split practice and testing stages, and prep ending messages. For Kang, split the practice and main testing stages into two.
+## Update-version5-3.12 <br><br>
+Test the gaze function.<br><br>
+How to test it?<br><br>
+I created a extra white cube in `xbox_practice` scene for testing the gaze and put it on the green table. So repeatedly look at the cube and moveaway to check if there is a log in the console window as "GazeOn"， "GazeOff".
