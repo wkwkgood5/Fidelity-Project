@@ -1,6 +1,5 @@
 # Fidelity-Project
 ## Update-version5-3.6 <br><br>
-**Do not use Fidelity. Using Fidelity_v5** <br><br>
 Unity version: Unity 2017.3.0f3 (64-bit) <br><br>
 Note: You have to use Unity 2017.3.0f3 (64-bit) instead of Unity 2017.1.0p5 (64-bit) <br><br>
 **What to test today** <br><br>
